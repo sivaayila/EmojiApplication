@@ -252,7 +252,7 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
         emojisPager = (ViewPager) view.findViewById(R.id.emojis_pager);
         LinearLayout tabs = (LinearLayout) view.findViewById(R.id.emojis_tab);
 
-        emojisPager.setOnPageChangeListener(this);
+        emojisPager.addOnPageChangeListener(this);
         EmojiconRecents recents = this;
         mEmojisAdapter = new EmojisPagerAdapter(Arrays.asList(new EmojiconRecentsGridView(mContext, null, null, this, mUseSystemDefault),
                 new EmojiconGridView(mContext, People.DATA, recents, this, mUseSystemDefault),

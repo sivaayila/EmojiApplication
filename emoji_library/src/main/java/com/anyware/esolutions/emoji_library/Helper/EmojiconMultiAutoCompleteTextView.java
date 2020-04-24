@@ -6,10 +6,12 @@ import android.text.style.DynamicDrawableSpan;
 import android.util.AttributeSet;
 import android.widget.MultiAutoCompleteTextView;
 
+import androidx.appcompat.widget.AppCompatMultiAutoCompleteTextView;
+
 import com.anyware.esolutions.emoji_library.R;
 
 
-public class EmojiconMultiAutoCompleteTextView extends MultiAutoCompleteTextView {
+public class EmojiconMultiAutoCompleteTextView extends AppCompatMultiAutoCompleteTextView {
     private int mEmojiconSize;
     private int mEmojiconAlignment;
     private int mEmojiconTextSize;
