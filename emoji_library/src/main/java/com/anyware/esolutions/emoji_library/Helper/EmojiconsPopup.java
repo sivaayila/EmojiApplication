@@ -28,6 +28,7 @@ import com.anyware.esolutions.emoji_library.R;
 import com.anyware.esolutions.emoji_library.emoji.Cars;
 import com.anyware.esolutions.emoji_library.emoji.Electr;
 import com.anyware.esolutions.emoji_library.emoji.Emojicon;
+import com.anyware.esolutions.emoji_library.emoji.Flags;
 import com.anyware.esolutions.emoji_library.emoji.Food;
 import com.anyware.esolutions.emoji_library.emoji.Nature;
 import com.anyware.esolutions.emoji_library.emoji.People;
@@ -261,11 +262,12 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
                 new EmojiconGridView(mContext, Sport.DATA, recents, this, mUseSystemDefault),
                 new EmojiconGridView(mContext, Cars.DATA, recents, this, mUseSystemDefault),
                 new EmojiconGridView(mContext, Electr.DATA, recents, this, mUseSystemDefault),
-                new EmojiconGridView(mContext, Symbols.DATA, recents, this, mUseSystemDefault)
+                new EmojiconGridView(mContext, Symbols.DATA, recents, this, mUseSystemDefault),
+                new EmojiconGridView(mContext, Flags.DATA, recents, this, mUseSystemDefault)
 
         ));
         emojisPager.setAdapter(mEmojisAdapter);
-        mEmojiTabs = new View[8];
+        mEmojiTabs = new View[9];
 
         mEmojiTabs[0] = view.findViewById(R.id.emojis_tab_0_recents);
         mEmojiTabs[1] = view.findViewById(R.id.emojis_tab_1_people);
@@ -275,6 +277,7 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
         mEmojiTabs[5] = view.findViewById(R.id.emojis_tab_5_cars);
         mEmojiTabs[6] = view.findViewById(R.id.emojis_tab_6_elec);
         mEmojiTabs[7] = view.findViewById(R.id.emojis_tab_7_sym);
+        mEmojiTabs[8] = view.findViewById(R.id.emojis_tab_8_flag);
         for (int i = 0; i < mEmojiTabs.length; i++) {
             final int position = i;
             mEmojiTabs[i].setOnClickListener(new OnClickListener() {
@@ -351,6 +354,7 @@ public class EmojiconsPopup extends PopupWindow implements ViewPager.OnPageChang
             case 5:
             case 6:
             case 7:
+            case 8:
 
                 if (mEmojiTabLastSelectedIndex >= 0 && mEmojiTabLastSelectedIndex < mEmojiTabs.length) {
                     mEmojiTabs[mEmojiTabLastSelectedIndex].setSelected(false);

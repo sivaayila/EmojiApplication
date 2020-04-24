@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="grid_column_width">40dip</dimen>
+    <dimen name="emoji_item_layout">36dip</dimen>
+    <dimen name="emoji_item_text">20sp</dimen>
+    <dimen name="emoji_icon_size">30dip</dimen>
+    <dimen name="emoji_icon_layout">50dip</dimen>
+    <dimen name="emoji_view">1px</dimen>
+</resources>

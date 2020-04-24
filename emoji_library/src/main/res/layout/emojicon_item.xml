@@ -7,10 +7,10 @@
     <com.anyware.esolutions.emoji_library.Helper.EmojiconTextView
         android:layout_gravity="center"
         android:id="@+id/emojicon_icon"
-        android:layout_width="36dip"
-        android:layout_height="36dip"
-        android:textSize="20dip"
+        android:layout_width="@dimen/emoji_item_layout"
+        android:layout_height="@dimen/emoji_item_layout"
+        android:textSize="@dimen/emoji_item_text"
         android:textColor="#000000"
-        emojicon:emojiconSize="30dip"
+        emojicon:emojiconSize="@dimen/emoji_icon_size"
         android:gravity="center" />
 </FrameLayout>

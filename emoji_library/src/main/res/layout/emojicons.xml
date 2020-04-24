@@ -6,7 +6,7 @@
     <LinearLayout
         android:id="@+id/emojis_tab"
         android:layout_width="match_parent"
-        android:layout_height="50dip"
+        android:layout_height="@dimen/emoji_icon_layout"
         android:layout_alignParentTop="true"
         android:orientation="horizontal">
 
@@ -94,6 +94,15 @@
             android:id="@+id/emojis_tab_7_sym"
             android:src="@drawable/selector_emoji_symbols" />
 
+        <ImageButton
+            android:background="@null"
+            android:layout_width="0dip"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="center"
+            android:id="@+id/emojis_tab_8_flag"
+            android:src="@drawable/selector_emoji_flag" />
+
 
 
         <ImageButton
@@ -115,7 +124,7 @@
 
     <View
         android:layout_width="match_parent"
-        android:layout_height="1px"
+        android:layout_height="@dimen/emoji_view"
         android:background="#ffffff"
         android:layout_below="@id/emojis_tab"
         />
