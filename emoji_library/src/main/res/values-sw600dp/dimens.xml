@@ -6,4 +6,8 @@
     <dimen name="emoji_icon_size">45dip</dimen>
     <dimen name="emoji_icon_layout">75dip</dimen>
     <dimen name="emoji_view">2px</dimen>
+
+    <dimen name="emoji_title_icons_size3">33dp</dimen>
+    <dimen name="emoji_title_icons_size">38dp</dimen>
+    <dimen name="emoji_title_icons_size2">45dp</dimen>
 </resources>

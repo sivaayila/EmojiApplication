@@ -1,0 +1,9 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="@dimen/emoji_title_icons_size"
+    android:height="@dimen/emoji_title_icons_size"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+  <path
+      android:pathData="m256,66.637c-104.419,0 -189.363,84.944 -189.363,189.363s84.944,189.363 189.363,189.363 189.363,-84.944 189.363,-189.363 -84.944,-189.363 -189.363,-189.363zM346.059,353.947c-3.077,3.077 -7.117,4.626 -11.156,4.626 -4.039,0 -8.082,-1.549 -11.156,-4.626l-78.902,-78.9c-2.967,-2.95 -4.623,-6.961 -4.623,-11.156l0,-102.573c0,-8.726 7.068,-15.779 15.779,-15.779s15.779,7.053 15.779,15.779l0,96.04l74.279,74.276c6.169,6.172 6.169,16.143 0,22.312zM346.059,353.947"
+      android:fillColor="#495C66"/>
+</vector>
